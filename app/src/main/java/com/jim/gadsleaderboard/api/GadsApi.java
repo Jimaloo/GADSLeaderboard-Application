@@ -11,6 +11,8 @@ public interface GadsApi {
     @GET("/api/hours")
     Call<List<LearningLeaders>> getLearningLeaders();
 
+
+
     @GET("/api/skilliq")
     Call<List<SkillLeaders>> getSkillLeaders();
 }
